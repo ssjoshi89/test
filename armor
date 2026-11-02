@@ -1,0 +1,393 @@
+2026-09-29 23:23:05 UTC: yum update -y
+2026-09-29 23:23:21 UTC: cd /mnt/
+2026-09-29 23:23:28 UTC: sudo yum install git -y
+4
+2026-09-29
+23123:46 UTC: anf module reset php -y
+5
+2026-09-29 23:23:54
+ic: ant module install php: 8.2-y
+6
+2026-09-29 23:24:09
+7
+UTC: dnf install phR-pdo -y
+2026-09-29
+8
+2026-09-29
+23:24:21 UTC: gsutilcp-gs://dataprocaiml/sumit/armorbucket/_-
+9
+2026-09 -29
+23:25:46 UTC: yum install /mnt/armorbucket/packages/powershel1-7.3.7-1.rh.x86
+23:25:59 UTC: cd armorbucket/
+_64. грт - у
+10
+2026-09-29 23:26:04 UTC: cd dec25/
+11
+2026-09
+29
+23:26:09
+12
+UTC: MY HSBCCA_Bundle.pem /root/
+2026-09-29 23:26:16 UTC: my HSBTrusted Centificates.pem / root/
+13
+2026-09-29 23:26:21 UTC: chmod 777 / root/HSBC
+14
+2026-09-29 23:26:29 UTC: cd ..
+15
+2026-09-29 23:26:35 UTC: cd packages/
+16
+2026-09-29 23:26:43 UTC: crontab -e
+17
+2026-09-29 23:27:16 UTC: sudo \cp -r ssh/* /root/-ssh/
+18
+2026-09-29 23:27:30
+19
+UTC: sudo chmod 600/root/-ssh/id rsa
+2026-09-29 23:27:38 UTC: sudo
+chmod 600/ root/. ssh/id_rsa.pub
+20
+2026-09-29 23:27:46 UTC:
+sudo yum install unzip -y
+21
+2026-09-29 23:27:54 UTC:
+sudo yum install mariadby
+22
+2026-09-29 23:28:05 UTC: sudo yum install mariadb-server.x86_64 -y
+23
+2026-09-29 23:28:19 UTC:
+24
+2026-09-29 23:28:25
+sudo unzip kubectl/kubect1-linux-amd64-1.26.2.zip -d kubectl/kb/
+UTC:
+sude cp-r kubecti/kb/kubect] /usn/bin/
+25
+2026-09-29 23:28:30 UTC:
+Sude chmod 777/usn/bin/kubect!
+26
+2026-09-29 23:28:34 UTC:
+kubect!
+27
+2026-09-29 23:28:42
+28
+2026-09-29 23:28:51 UTC:
+29
+2026-09-29 23:28:57 UTC: sudo service maniado start
+30
+2026-09-29 23:29:05 UTC:
+Sud myal sfu root KES
+set root password
+UPDATE mysql.user SET Password=PASSWORD( abs") WHERE User= root's
+- delete anonymous users
+DELETE FROM mysqL.user WHERE User-;
+-- delete remote root capabilities
+DELETE FROM mysal. user WHERE User- root AND Host NOT IN (localhost, 127.0.0.1, =:1 ):
+-- drop database
+DROP DATABASE IF EXISTS test;
+-- also make sure there are lingering permissions to it
+DELETE FROM mysql.db WHERE Db= test* OR Db="test\\_%; make changes immediately
+FLUSH PRIVILEGES;
+
+31
+2026-09-29 23:29:15 UTC: mysal -u root -pabc -e 'create database chaos;|
+32
+2026-09-29 23:29:20 UTC: yum install php-*
+-У
+33
+2026-09-29 23:30:08 UTC: yum module reset nginx -y
+34
+2026-09-29 23:30:17 UTC: yum module enable nginx:1.24 -y
+35
+2026-09-29 23:30:23 UTC: yum install nginx -y
+36
+2026-09-29 23:30:36 UTC: systemct] enable nginx
+37
+2026-09-29 23:31:51 UTC: gsutil cp-rgs://dataprocaim]/sumit/amror-prod-july26/ •
+38
+2026-09-30 00:00:07 UTC: 11
+39
+2026-09-30 00:00:11 UTC: cd amror-prod-july26/
+40
+2026-09-30 00:00:12 UTC:
+11
+41
+2026-09-30 00:00:15 UTC: cd configs/
+42
+2026-09-30 00:00:16 UTC:
+43
+2026-09-30 00:00:30 UTC:
+mv chaos-ssl/ /etc/nginx/
+44
+2026-09-30 00:00:38 UTC:
+chmod -R 777
+/etc/nginx/chaos-ss1/
+45
+2026-09-30 00:00:51 UTC:
+cp nginx.conf/etc/nginx/
+46
+2026-09-30 00:01:06 UTC: mv pip/ /root/.contig/
+47
+2026-09-30 00:01:13 UTC: chmod -R 777/root/. config/
+48
+2026-09-30 00:01:18 UTC:
+11/ /root/.config/
+49
+2026-09-30 00:01:21 UTC:
+
+50
+2026-09-30 00:01:30 UTC: mv • ssh/ /root/
+
+51
+2026-09-30 00:01:47 UTC: \cp -r • ssh//root/• ssh/
+
+52
+2026-09-30 00:01:53 UTC: 11 / root/. ssh/
+
+53
+2026-09-30 00:02:20 UTC:
+rm -rf / root/. ssh/*
+
+54
+2026-09-30 00:02:24 UTC: 11 / root/ • ssh/
+
+55
+2026-09-30 00:02:34 UTC:
+Icp -r . ssh/* / root/ .ssh/
+
+56
+2026-09-30 00:02:36 UTC: .
+ll /root/• ssh/
+
+57
+2026-09-30 00:02:42 UTC:
+11
+
+58
+2026-09 -30 00:02:48 UTC:
+Is
+-Itra
+
+59
+2026-09-30 00:02:53 UTC:
+mv
+• aws/ /root/
+
+60
+2026-09-30 00:03:01 UTC:
+mv kube/ /root/
+
+61
+2026-09-30 00:03:09 UTC:
+chmod -R 777 /root/. kube/
+
+62
+2026-09-30 00:03:13 UTC:
+chmod -R 777 /root/ • aws/
+
+63
+2026-09-30 00:03:20 UTC:
+1s
+-atra root/
+
+64
+2026-09-30 00:03:25 UTC:
+11
+/root/. kube/
+
+65
+2026-09-30 00:03:28 UTC:
+
+66
+2026-09-30 00:03:32 UTC:
+cd
+
+67
+2026-09-30 00:03:34 UTC:
+
+68
+2026-09-30 00:03:49 UTC:
+rm -rf /usr/share/nginx/html/*
+
+69
+2026-09-30 00:03:56 UTC:
+11 /usr/share/nginx/html/
+
+70
+2026-09-30 00:04:09 UTC:
+Icp -r html/* /usr/share/nginx/html/
+
+71
+2026-09-30 08:04:12 UTC: 11 /usc/share/nginx/html/
+
+72
+2026-09-30 00:04:24 UTC:
+rm -rf /us/share/nginx/html/test
+
+73
+2026-09-30 00:04:27 UTC: rm -rf /usc/share/nginx/html/test.html
+
+74
+2026-09-30 00:04:35 UTC: rm -rf /usc/share/nginx/html/a.Jsor
+
+75
+2026-09-30 08:04:59 UTC: 11/usc/share/nginx/html/
+
+00:04:35 UTC: rm -rf/usc/share/nginx/html/a.jsor
+75
+2026-09-30 00:04:59 UTC:
+d/usc/share/nginx/html/
+76
+2026-09-30 00:05:13 UTC:
+rm -rf /usc/share/nginx/html/html/
+77
+2026-09 -30 00:05:19 UTC:
+11 /usc/share/nginx/html/
+78
+2026-09-30 00:05:42 UTC:
+
+79
+2026-09-30 00:05:44 UTC:
+chmod -R 777 /usc/share/nginx/html/
+Ll /usc/share/nginx/html/
+80
+2026-09-30 00:06:07 UTC:
+
+81
+2026-09-30 00:06:12 UTC: 11 /mnt/
+
+82
+2026-09-30 00:06:20 UTC:
+lcp-r mnt/* /mnt/
+83
+2026-09-30 00:06:22 UTC:
+11 /mnt
+84
+2026-09-30 00:06:28
+UTC: chmod -R 777 /mnt/
+85
+2026-09-30 00:06:32 UTC: 11/ mnt/
+
+86
+2026-09-30
+00:06:42 UTC: mysal-u root -pabc chaos</mat/gitBackup/gcpUpdate_02042024.sql
+87
+2026-09-30
+00:06:51 UTC: myst -u root -p chaos
+88
+2026-09-30
+00:07:18 UTC: yum install git python3.11 -y
+89
+2026-09-30
+08:07:43 UTC: yum groupinstall "Development Tools" - y
+90
+2026-09-30 00:09:02 UTC: alternatives
+-config python
+91
+2026-09-30
+00: 09:14 UTC: python -m veny /root/. venvs/chaostk
+92
+2026-09-30
+00:09:23 UTC: source / root/- venvs/chaostk/bin/activate
+93
+2026-09 -30 00:09:28
+pip install certifi
+94
+2026-09-30 00:09:35 UTC:
+pip
+install
+95
+2026-09-30 00:09:42
+UTC:
+yum
+install
+--upgrade pip krb5-devel-y
+96
+2026-09-30 00:09:50 UTC:
+yum
+install
+97
+2026-09-30 00:09:57 UTC:
+yum
+install
+Libevent-devel - y
+98
+2026-09-30 00:10:08
+UTC: yum install
+python3.11-devel.i686 -y
+99
+2026-09-30 00:10:36 UTC: pip install
+adts- assume
+100
+2026-09-30
+00:10:42 UTC: pip install awscli
+101
+2026-09-30 00:11:16 UTC:
+
+102
+2026-09-30 00:11:56 UTC:
+setenforce e systemcta start nginx
+103
+2026-09-30 00:14:34 UTC:
+service crond start
+104
+2026-09-30 00:15:26 UTC:
+pip install awscli --index-url https://nexus302.systems.uk.hsbc:8081/nexus/repository/pypi-group/simple
+
+105
+2026-09-30
+00:15:43 UTC: pip install adfs-assume --index-url https://nexus302.systems.uk.hsbc:8081/nexus/repository/pypi-group/simple
+
+106
+2026-09-30 00:16:24 UTC:
+21
+
+107
+2026-09-30 00:16:29 UTC:
+11
+configs/
+
+108
+2026-09-30 00:16:34 UTC:
+cd
+
+109
+2026-09-30 00:16:37 UTC:
+
+
+110
+2026-09-30 00:16:47 UTC:
+cd
+
+111
+2026-09-30 00:16:48 UTC:
+
+
+112
+2026-09-30 00:16:52 UTC:
+cd
+
+113
+2026-09-30 00:16:57 UTC:
+rm
+-rf armorbucket/
+
+114
+2026-09-30 00:17:01 UTC:
+11
+
+115
+2026-09-30 00:17:50 UTC:
+ssh -i /root/.ssh/id_rsacopsys@gb120149025.hc.cloud.uk.hsbc
+
+116
+2026-09-30
+117
+00:18:09 UTC:
+sude chmod 600/root/ .ssh/id_rsa
+
+2026-09-30 00:18:12 UTC:
+118
+ssh -i /root/.ssh/id_rsacopsys@gbl20149025.hc.cloud.uk.hsbc
+2026-09-30 00:20:29 UTC: history
+Ln 133, Col 1
+7,301 characters
+Plain text
