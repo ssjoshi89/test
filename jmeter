@@ -1,0 +1,240 @@
+
+chaostk) [root@jmeter-oct26 devops-dashboard-servicel history
+
+
+
+2026-09-29 23:03:00 UTC: cd /mnt/
+
+
+2
+
+
+
+
+2026-09-29 23:03:52 UTC: cd jmeter/
+
+2026-09-29 23:03:05 UTC: gsutil cp -rgs://dataprocaiml/jmeter-gcp-2026/* -
+
+2026-09-29 23:03:59 UTC: mv HPP/ /mnt/
+
+
+5
+2026-09-29 23:04:06 UTC: mv opt/* /opt/
+
+
+6
+2026-09-29
+
+23:04:11 UTC: chmod 777 /opt/script.sh
+7
+2026-09-29 23:04:21 UTC: 11/opt/
+
+
+
+2026-09-29 23:04:28 UTC: mv pip / root/.config/
+
+
+9
+2026-09-29 23:04:37 UTC: mv tmp/* /var/tmp/
+
+
+10
+2026-09-29 23:04:43 UTC: chmod -R 777 /var/ tmp/
+
+
+11
+2026-09-29 23:04:55 UTC: 11 /var/tmp/
+
+
+12
+
+
+2026-09-29 23:05:10 UTC: gsutil cp -r gs://dataprocaiml/jmeter-automation-backup/* •
+13
+
+
+2026-09-29 23:06:02 UTC: mv devops-dashboard-service/ /root/.config/
+14
+
+
+2026-09-29 23:06:08 UTC: chmod -R 777 /root/.config/
+15
+2026-09-29
+
+23:06:13 UTC: 11/root/.config/
+16
+2026-09-29 23:06:24 UTC: 11
+
+
+17
+2026-09-29 23:06:34 UTC: cd
+
+
+18
+2026-09-29 23:06:39 UTC: rm
+
+-rf jmeter/
+19
+2026-09-29
+
+23:06:46 UTC: chmod -R 777 HPP/
+20
+2026-09-29 23:06:52 UTC: cd HPP/
+
+
+21
+2026-09-29 23:06:53 UTC: 11
+
+
+22
+2026-09-29 23:06:58 UTC: rm -rf chaosArmorLog
+
+
+23
+2026-09-29 23:07:01 UTC: rm -rf nohup.out
+
+
+
+24
+2026-09-29 23:07:09 UTC: sudo yum update -y
+
+
+
+25
+
+2026-09-29 23:07:26 UTC: yum install git python3.11 -y
+
+26
+
+2026-09-29 23:07:52 UTC: yum groupinstall "Development Tools" —y
+
+27
+2026-09-29 23:09:13 UTC: Yum install unzip -y
+
+
+
+28
+2026-09-29 23:09:22 UTC:
+
+alternatives --config python
+
+29
+2026-09-29 23:09:32 UTC:
+
+python -m venv /root/. venvs/chaostk
+
+30
+2026-09-29 23:09:38 UTC:
+
+source /root/. venvs/chaostk/bin/activate
+
+31
+2026-09-29
+
+23:09:42 UTC: pip install certifi
+
+32
+2026-09-29 23:09:50 UTC:
+
+pip install --upgrade pip
+
+33
+2026-09-29 23:09:56 UTC: pip install wheel
+
+setuptools
+
+34
+2026-09-29 23:10:01 UTC:
+
+pip install flask
+
+35
+2026-09-29
+
+23:10:09 UTC: pip install python-dotenv
+
+36
+2026-09-29 23:10:15 UTC: pip install
+
+requests
+
+37
+2026-09-29 23:10:22 UTC: pip install
+
+flask-talisman
+
+38
+2026-09-29 23:10:28 UTC: pip install
+2026-09-29 23:10:48 UTC: Pip install Dingaz
+
+
+
+39
+
+
+
+40
+2026-09-29 23:10:55 UTC: pip install
+
+openpyx1
+
+41
+2026-09-29
+23:11:00 UTC: pip install
+xlsxwriter
+
+42
+2026-09-29
+23:11:06 UTC: pip install
+ratelimit
+
+43
+2026-09-29 23:11:13 UTC: pip install
+
+gunicorn
+
+44
+2026-09-29 23:11:18 UTC: pip install
+
+pytz
+
+45
+2026-09-29 23:11:22 UTC: pip install
+
+maya
+
+46
+2026-09-29 23:11:44 UTC: pip
+
+install natural
+
+47
+2026-09-29
+48
+2026-09-29 23:12:58 UTC: 11
+
+23:11:53 UTC: Yum install java - y
+
+
+
+
+
+49
+50
+
+2026-09-29 23:13:07 UTC: java -jar chaosarmor-0.0.7. jar --chaos.host=10.98.38.52 >> chaosArmor.log &
+2026-09-29 23:13:22 UTC: cd /root/. config/devops-dashboard-service/
+
+51
+
+2026-09-29 23:13:28 UTC: gunicorn server:application --pid app-pid -b 0.0.0.0:7775 --workers 1 --daemon
+
+52
+2026-09-29
+
+23:13:34 UTC: 1sof -i: 7775
+53
+2026-09-29 23:13:51 UTC: history
+(chaostk) [root@jmeter-oct26 devops-dashboard-service]#
+3
+Search
